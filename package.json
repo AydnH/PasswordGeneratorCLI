@@ -1,0 +1,16 @@
+{
+  "name": "passgenerator",
+  "version": "1.0.0",
+  "description": "Create an API in Javascript that generates secure passwords. As input parameters the user must provide the minimum length, the number of special characters, the number of numbers and the number of passwords that shall be created. Then generate the passwords and return them in an array. Please also consider to add unit tests.",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aydn Hooper",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.1.0"
+  }
+}
